@@ -21,12 +21,13 @@ Version|Date|Author|Comments
 - Clone the repository
     ```bash
     git clone https://github.com/mmsharepoint/tab-mgt-person-csharp.git
+- Perform actions in GettingStarted.txt
 - You will need to register an app in Azure AD [Can also be accomplished by Visual Studio](https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/add-single-sign-on?pivots=visual-studio&WT.mc_id=M365-MVP-5004617#add-sso-to-teams-app-for-visual-studio)
-  - with redirect uri https://_NGrok-Url_/auth.html
+  - with redirect uri https://localhost/blank-auth-end.html
   - Make it multi-tenant
   - with client secret
   - with **delegated** permissions User.Read, People.Read and User.ReadBasic.All
-  - With exposed Api "access_as_user" and App ID Uri api://_NGrok-Url_/<App ID>
+  - With exposed Api "access_as_user" and App ID Uri api://localhost/<App ID>
   - With the client IDs for Teams App and Teams Web App 1fec8e78-bce4-4aaf-ab1b-5451cc387264 and 5e3ce6c0-2b1f-4285-8d4b-75ee78787346
   
 ## Features
