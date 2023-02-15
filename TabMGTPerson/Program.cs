@@ -1,7 +1,6 @@
 using TabMGTPerson;
 using TabMGTPerson.Interop.TeamsSDK;
 using Microsoft.Identity.Web;
-using Newtonsoft.Json.Converters;
 
 var builder = WebApplication.CreateBuilder(args);
 
