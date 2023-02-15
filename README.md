@@ -5,6 +5,9 @@
 This sample is a Teams Tab created using the Teams Toolkit with Visual Studio 2022. It uses the Microsoft Graph Toolkit (MGT) to access Microsoft Graph in the back.
 It uses Teams SSO with the on-behalf flow and MGT TeamsMSAL2Provider.
 
+Teams Tab with MGT components
+![Microsoft Graph Toolkit Person and People component in Teams Tab](assets/07Result.png)
+
 For further details see the author's [blog post](https://mmsharepoint.wordpress.com/2021/09/01/microsoft-graph-toolkit-in-a-teams-application-with-yo-teams-and-sso/)
 
 ## Version history
