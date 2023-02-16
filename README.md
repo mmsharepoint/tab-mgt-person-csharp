@@ -10,11 +10,15 @@ Teams Tab with MGT components
 
 For further details see the author's [blog post](https://mmsharepoint.wordpress.com/2021/09/01/microsoft-graph-toolkit-in-a-teams-application-with-yo-teams-and-sso/)
 
+## Applies to
+
+This sample was created [using the Teams Toolkit with Visual Studio 2022](). The same sample was also realized with the [Yeoman Generator for Teams](https://github.com/pnp/generator-teams) and can be found [here](https://github.com/mmsharepoint/tab-mgt-person).
+
 ## Version history
 
 Version|Date|Author|Comments
 -------|----|----|--------
-1.0|Feb 09, 2023|[Markus Moeller](https://twitter.com/moeller2_0)|Initial release
+1.0|Feb 16, 2023|[Markus Moeller](https://twitter.com/moeller2_0)|Initial release
 
 ## Disclaimer
 
@@ -32,6 +36,8 @@ Version|Date|Author|Comments
   - with **delegated** permissions User.Read, People.Read and User.ReadBasic.All
   - With exposed Api "access_as_user" and App ID Uri api://localhost/<App ID>
   - With the client IDs for Teams App and Teams Web App 1fec8e78-bce4-4aaf-ab1b-5451cc387264 and 5e3ce6c0-2b1f-4285-8d4b-75ee78787346
+- Add the app registration ClientId, ClientSecret to your appsettings.json (or a appsettings.Development.json)
+- Fill OAuthAuthority with https://login.microsoftonline.com/_YOUR_TENANTID_
   
 ## Features
 This is a simple Teams Tab. It uses the Microsoft Graph Toolkit (MGT) for simplifying access to Microsoft 365 resources.
