@@ -6,13 +6,14 @@ This sample is a Teams Tab created using the Teams Toolkit with Visual Studio 20
 It uses Teams SSO with the on-behalf flow and MGT TeamsMSAL2Provider.
 
 Teams Tab with MGT components
+
 ![Microsoft Graph Toolkit Person and People component in Teams Tab](assets/07Result.png)
 
 For further details see the author's [blog post](https://mmsharepoint.wordpress.com/2023/02/16/use-teams-toolkit-and-visual-studio-c-to-create-a-teams-tab-using-microsoft-graph-toolkit/)
 
 ## Applies to
 
-This sample was created [using the Teams Toolkit with Visual Studio 2022](). The same sample was also realized with the [Yeoman Generator for Teams](https://github.com/pnp/generator-teams) and can be found [here](https://github.com/mmsharepoint/tab-mgt-person).
+This sample was created [using the Teams Toolkit with Visual Studio 2022](https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/teams-toolkit-fundamentals?pivots=visual-studio&WT.mc_id=M365-MVP-5004617). The same sample was also realized with the [Yeoman Generator for Teams](https://github.com/pnp/generator-teams) and can be found [here](https://github.com/mmsharepoint/tab-mgt-person).
 
 ## Version history
 
