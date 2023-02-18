@@ -8,7 +8,7 @@ It uses Teams SSO with the on-behalf flow and MGT TeamsMSAL2Provider.
 Teams Tab with MGT components
 ![Microsoft Graph Toolkit Person and People component in Teams Tab](assets/07Result.png)
 
-For further details see the author's [blog post](https://mmsharepoint.wordpress.com/2021/09/01/microsoft-graph-toolkit-in-a-teams-application-with-yo-teams-and-sso/)
+For further details see the author's [blog post](https://mmsharepoint.wordpress.com/2023/02/16/use-teams-toolkit-and-visual-studio-c-to-create-a-teams-tab-using-microsoft-graph-toolkit/)
 
 ## Applies to
 
